@@ -1,0 +1,419 @@
+{
+  "app": {
+    "name": "Criptolog",
+    "tagline": "Sicuro, veloce e completamente privato."
+  },
+  "nav": {
+    "home": "Home",
+    "features": "Funzionalità",
+    "tools": "Strumenti",
+    "faq": "FAQ",
+    "contact": "Contattaci"
+  },
+  "hero": {
+    "title": "Benvenuto su Criptolog",
+    "subtitle": "La tua sicurezza digitale è la nostra priorità",
+    "cta": "Inizia ora",
+    "learnMore": "Scopri di più",
+    "stats": {
+      "aes": "AES a 256 bit",
+      "browser": "Nel Browser",
+      "saved": "Nessun Dato Salvato",
+      "files": "Tutti i File Supportati"
+    }
+  },
+  "features": {
+    "badge": "Funzionalità di Sicurezza",
+    "title": "Funzionalità di Sicurezza Avanzate",
+    "subtitle": "Strumenti potenti per la protezione dei tuoi dati",
+    "securityTitle": "Funzionalità di Sicurezza Aggiuntive",
+    "encryption": {
+      "title": "Crittografia Avanzata",
+      "description": "Proteggi i tuoi dati con crittografia di livello militare",
+      "detail1": "Crittografia AES-256 per la massima sicurezza",
+      "detail2": "Protezione end-to-end per tutti i dati",
+      "detail3": "Chiavi di crittografia generate localmente"
+    },
+    "chaos": {
+      "title": "Sistema del Caos",
+      "description": "Algoritmi avanzati per la massima protezione",
+      "detail1": "Generazione di entropia ad alta qualità",
+      "detail2": "Protezione contro attacchi di tipo pattern",
+      "detail3": "Randomizzazione avanzata dei dati"
+    },
+    "quantum": {
+      "title": "Resistenza Quantistica",
+      "description": "Preparati per il futuro della sicurezza",
+      "detail1": "Algoritmi resistenti agli attacchi quantistici",
+      "detail2": "Implementazione di crittografia post-quantum",
+      "detail3": "Protezione a lungo termine dei dati"
+    },
+    "autoDelete": {
+      "title": "Auto-Eliminazione",
+      "description": "Imposta un periodo di tempo dopo il quale i dati crittografati verranno eliminati automaticamente",
+      "1hour": "1 ora",
+      "24hours": "24 ore",
+      "7days": "7 giorni",
+      "30days": "30 giorni",
+      "never": "Mai",
+      "warning": "Una volta impostata l'auto-eliminazione, i dati verranno eliminati permanentemente dopo il periodo specificato e non potranno essere recuperati."
+  },
+    "localProcessing": {
+      "title": "Elaborazione Locale",
+      "description": "Tutti i dati rimangono sul tuo dispositivo",
+      "detail": "Nessun dato viene mai inviato ai nostri server"
+    },
+    "algorithms": {
+      "title": "Algoritmi Certificati",
+      "description": "Standard di sicurezza di livello governativo",
+      "detail": "Utilizzo esclusivo di algoritmi approvati NIST"
+    },
+    "integrity": {
+      "title": "Verifica dell'Integrità",
+      "description": "Garanzia di autenticità dei dati",
+      "detail": "Controlli di integrità su tutti i dati processati"
+    },
+    "noStorage": {
+      "title": "Zero Storage",
+      "description": "Nessun dato memorizzato sui server",
+      "detail": "Completa privacy e controllo dei tuoi dati"
+    },
+    "textEncryption": {
+      "title": "Crittografia Testo",
+      "description": "Cripta i tuoi messaggi sensibili"
+    },
+    "textDecryption": {
+      "title": "Decrittografia Testo",
+      "description": "Decripta i tuoi messaggi criptati"
+    },
+    "passwordGenerator": {
+      "title": "Generatore Password",
+      "description": "Genera password forti e sicure"
+    },
+    "chaosEncryption": {
+      "title": "Crittografia basata sul Caos",
+      "description": "Proteggi le immagini usando la teoria del caos e la dinamica non lineare",
+      "seed": "Condizione Iniziale (Seed)",
+      "iterations": "Numero di Iterazioni",
+      "process": "Elabora Immagine",
+      "download": "Scarica Immagine Criptata",
+      "uploadHint": "Clicca o trascina un'immagine da criptare",
+      "removeImage": "Rimuovi immagine",
+      "success": "Immagine criptata con successo!",
+      "error": "Errore durante la crittografia",
+      "selectImageError": "Seleziona un file immagine valido"
+    },
+    "quantumSimulator": {
+      "title": "Distribuzione Chiavi Quantistiche",
+      "description": "Simula il protocollo di distribuzione chiavi quantistiche BB84",
+      "speed": "Velocità Simulazione",
+      "slow": "Lenta",
+      "normal": "Normale",
+      "fast": "Veloce",
+      "eve": "Intercettatore (Eve)",
+      "active": "Attivo",
+      "inactive": "Inattivo",
+      "start": "Avvia Simulazione",
+      "bases": "Basi Quantistiche",
+      "rectilinear": "Base Rettilinea",
+      "diagonal": "Base Diagonale",
+      "vertical": "Verticale = 1",
+      "horizontal": "Orizzontale = 0",
+      "diag": "Diagonale = 1",
+      "antiDiag": "Anti-diagonale = 0",
+      "aliceStates": "Stati Quantistici di Alice",
+      "bobMeasurements": "Misurazioni di Bob",
+      "eveInterception": "Intercettazione di Eve",
+      "results": "Risultati Scambio Chiavi",
+      "success": "Scambio chiavi completato con successo!",
+      "compromised": "Intercettatore rilevato! Lo scambio chiavi è stato compromesso.",
+      "sharedKey": "Chiave Segreta Condivisa",
+      "securityCheck": "Controllo Sicurezza",
+      "errorRate": "Tasso di errore",
+      "threshold": "Soglia",
+      "recommendation": "Raccomandazione Sicurezza"
+    },
+    "secureShare": {
+      "title": "Condivisione Sicura",
+      "description": "Condividi in modo sicuro il tuo file crittografato con altri",
+      "descriptionText": "Condividi in modo sicuro il tuo messaggio crittografato con altri",
+      "password": "Password di Accesso",
+      "passwordPlaceholder": "Password per chi riceve",
+      "passwordWarning": "Condividi questa password attraverso un canale sicuro diverso",
+      "expiry": "Scadenza",
+      "1hour": "1 ora",
+      "24hours": "24 ore",
+      "3days": "3 giorni",
+      "7days": "7 giorni",
+      "maxDownloads": "Download massimi",
+      "unlimited": "Illimitati",
+      "generating": "Generazione in corso...",
+      "generateLink": "Genera link di condivisione",
+      "shareLink": "Link di condivisione",
+      "sendByEmail": "Invia via email",
+      "emailSubjectFile": "Condivisione sicura: {fileName}",
+      "emailSubjectText": "Messaggio sicuro condiviso",
+      "emailBody": "Ho condiviso con te un file crittografato.\n\nLink: {url}\n\nPassword: {password}\n\nIl link scadrà presto, scarica il file il prima possibile."
+    }
+  },
+  "tools": {
+    "title": "Strumenti di Sicurezza",
+    "subtitle": "Una suite completa di strumenti per proteggere i tuoi dati",
+    "selectTool": "Seleziona uno Strumento",
+    "selectToolDescription": "Scegli uno strumento dalla barra di navigazione qui sopra per iniziare",
+    "groups": {
+      "encryption": "Crittografia & Decrittografia",
+      "generators": "Generatori",
+      "advanced": "Strumenti Avanzati"
+    },
+    "fileEncryption": {
+      "title": "Crittografia File",
+      "description": "Proteggi i tuoi file con crittografia avanzata",
+      "encrypt": "Cripta File",
+      "decrypt": "Decripta File"
+    },
+    "generators": {
+      "title": "Generatori Crittografici",
+      "description": "Genera elementi crittografici sicuri",
+      "hash": {
+        "title": "Generatore Hash",
+        "description": "Genera e verifica hash sicuri",
+        "generate": "Genera Hash",
+        "verify": "Verifica Hash"
+      },
+      "key": {
+        "title": "Generatore Chiavi",
+        "description": "Genera chiavi crittografiche",
+        "generate": "Genera Chiave"
+      },
+      "password": {
+        "title": "Generatore Password",
+        "description": "Genera password sicure",
+        "generate": "Genera Password"
+      }
+    },
+    "chaosEncryption": {
+      "title": "Crittografia Caotica",
+      "description": "Protezione immagini con teoria del caos",
+      "encrypt": "Cripta Immagine",
+      "decrypt": "Decripta Immagine"
+    },
+    "quantumSimulator": {
+      "title": "Simulatore Quantistico",
+      "description": "Distribuzione chiavi quantistiche",
+      "simulate": "Avvia Simulazione"
+    }
+  },
+  "common": {
+    "loading": "Caricamento...",
+    "error": "Errore",
+    "success": "Successo",
+    "save": "Salva",
+    "cancel": "Annulla",
+    "confirm": "Conferma",
+    "delete": "Elimina",
+    "copy": "Copia",
+    "download": "Scarica",
+    "upload": "Carica",
+    "close": "Chiudi",
+    "edit": "Modifica",
+    "show": "Mostra",
+    "hide": "Nascondi",
+    "warning": "Attenzione!",
+    "info": "Informazione"
+  },
+  "chatbot": {
+    "title": "Assistente AI",
+    "welcome": "Ciao! Sono il tuo assistente per la crittografia. Come posso aiutarti oggi?",
+    "defaultResponse": "Ho capito che stai chiedendo informazioni sulla crittografia. Lascia che ti aiuti.",
+    "inputPlaceholder": "Scrivi il tuo messaggio..."
+  },
+  "encryption": {
+    "title": "Crittografia",
+    "key": "Chiave",
+    "keyPlaceholder": "Inserisci la chiave di crittografia",
+    "encrypt": "Cripta",
+    "decrypt": "Decripta",
+    "keyGenerationError": "Errore nella generazione della chiave",
+    "missingInputs": "Inserisci tutti i campi richiesti",
+    "invalidData": "Dati non validi",
+    "processingError": "Errore durante l'elaborazione",
+    "copied": "Copiato negli appunti",
+    "copyError": "Errore durante la copia"
+  },
+  "faq": {
+    "title": "Domande Frequenti",
+    "subtitle": "Trova risposte alle domande comuni",
+    "questions": [
+      {
+        "question": "Come funziona la crittografia?",
+        "answer": "La nostra crittografia utilizza algoritmi avanzati",
+        "points": [
+          "Utilizziamo AES-256 per la massima sicurezza",
+          "I dati vengono elaborati localmente nel browser",
+          "Nessun dato viene salvato sui nostri server"
+        ]
+      },
+      {
+        "question": "I miei dati sono al sicuro?",
+        "answer": "La sicurezza dei tuoi dati è la nostra priorità",
+        "points": [
+          "Crittografia end-to-end",
+          "Nessun salvataggio dei dati",
+          "Elaborazione locale garantita"
+        ]
+      },
+      {
+        "question": "Posso recuperare una password dimenticata?",
+        "answer": "Per massima sicurezza, non memorizziamo le password",
+        "points": [
+          "Conserva le password in modo sicuro",
+          "Usa un gestore di password",
+          "Crea backup dei dati importanti"
+        ]
+      },
+      {
+        "question": "Quali algoritmi utilizzate?",
+        "answer": "Utilizziamo gli standard più recenti",
+        "points": [
+          "AES-256 per la crittografia simmetrica",
+          "PBKDF2 per la derivazione delle chiavi",
+          "SHA-256 per l'hashing"
+        ]
+      },
+      {
+        "question": "È compatibile con altri servizi?",
+        "answer": "Utilizziamo formati standard per la massima compatibilità",
+        "points": [
+          "File compatibili con altri servizi",
+          "Formati aperti e documentati",
+          "Facile integrazione"
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "rights": "Tutti i diritti riservati",
+    "about": "Chi Siamo",
+    "contact": "Contatti",
+    "privacy": "Privacy",
+    "terms": "Termini",
+    "cookies": "Cookie",
+    "description": "Criptolog è dedicato a fornire soluzioni sicure e innovative per la comunicazione digitale. Per informazioni, contattaci a criptologg@gmail.com"
+  },
+  "modals": {
+    "privacy": {
+      "title": "Informativa sulla Privacy",
+      "sections": [
+        {
+          "title": "Raccolta dei Dati",
+          "content": "Non raccogliamo né memorizziamo alcun dato personale. Tutte le operazioni vengono eseguite localmente nel tuo browser.",
+          "items": [
+            "Nessun dato personale viene raccolto",
+            "Nessun cookie di tracciamento",
+            "Nessuna analisi comportamentale"
+          ]
+        },
+        {
+          "title": "Elaborazione Locale",
+          "content": "Tutti i dati vengono elaborati localmente sul tuo dispositivo. Non vengono mai inviati ai nostri server.",
+          "items": [
+            "Crittografia end-to-end",
+            "Nessuna trasmissione di dati",
+            "Totale privacy garantita"
+          ]
+        },
+        {
+          "title": "Sicurezza",
+          "content": "La tua sicurezza è la nostra priorità. Utilizziamo solo algoritmi di crittografia standard del settore.",
+          "items": [
+            "AES-256 per la crittografia",
+            "Generazione sicura delle chiavi",
+            "Protocolli di sicurezza avanzati"
+          ]
+        }
+      ]
+    },
+    "terms": {
+      "title": "Termini di Servizio",
+      "sections": [
+        {
+          "title": "Accettazione dei Termini",
+          "content": "Utilizzando questo servizio, accetti i seguenti termini e condizioni.",
+          "items": [
+            "Uso responsabile del servizio",
+            "Rispetto delle leggi locali",
+            "Accettazione delle limitazioni di responsabilità"
+          ]
+        },
+        {
+          "title": "Limitazioni di Responsabilità",
+          "content": "Il servizio viene fornito 'così com'è' senza garanzie di alcun tipo.",
+          "items": [
+            "Nessuna garanzia di disponibilità",
+            "Nessuna responsabilità per perdita di dati",
+            "Uso del servizio a proprio rischio"
+          ]
+        },
+        {
+          "title": "Modifiche ai Termini",
+          "content": "Ci riserviamo il diritto di modificare questi termini in qualsiasi momento.",
+          "items": [
+            "Notifica delle modifiche sostanziali",
+            "Continuazione dell'uso implica accettazione",
+            "Verifica periodica dei termini"
+          ]
+        }
+      ]
+    },
+    "cookies": {
+      "title": "Politica dei Cookie",
+      "sections": [
+        {
+          "title": "Uso dei Cookie",
+          "content": "Questo sito non utilizza cookie di tracciamento o di profilazione.",
+          "items": [
+            "Nessun cookie di terze parti",
+            "Nessun cookie di tracciamento",
+            "Solo cookie tecnici essenziali"
+          ]
+        },
+        {
+          "title": "Cookie Tecnici",
+          "content": "Utilizziamo solo cookie tecnici essenziali per il funzionamento del sito.",
+          "items": [
+            "Cookie di sessione",
+            "Cookie di preferenze",
+            "Cookie di funzionalità base"
+          ]
+        },
+        {
+          "title": "Controllo dei Cookie",
+          "content": "Puoi controllare e gestire i cookie attraverso le impostazioni del tuo browser.",
+          "items": [
+            "Gestione tramite browser",
+            "Opzioni di blocco cookie",
+            "Eliminazione dei cookie"
+          ]
+        }
+      ]
+    },
+    "contact": {
+      "title": "Contattaci",
+      "description": "Compila il modulo per inviarci un messaggio",
+      "name": "Nome",
+      "email": "Email",
+      "subject": "Oggetto",
+      "message": "Messaggio",
+      "send": "Invia Messaggio",
+      "sending": "Invio in corso...",
+      "success": "Messaggio inviato con successo!",
+      "error": "Errore durante l'invio del messaggio",
+      "cancel": "Annulla"
+    }
+  },
+  "chaosSelectImageError": "Seleziona un file immagine valido",
+  "chaosEncryptionStart": "Avvio crittografia basata sul caos...",
+  "chaosEncryptionSuccess": "Immagine criptata con successo!",
+  "chaosEncryptionError": "Errore durante la crittografia"
+}
